@@ -9,6 +9,10 @@ body{
     width: 300px; /* or any size you prefer */
     height: auto;
 }
+.logo-img {
+    width: 40px; /* ajuste conforme preferir */
+    height: auto;
+}
 a {
     color: #ffffff; 
     text-decoration: underline; 
