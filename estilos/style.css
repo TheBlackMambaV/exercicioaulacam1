@@ -6,14 +6,55 @@ body{
 }
 
 .small-img {
-    width: 300px; /* or any size you prefer */
+    width: 300px; 
     height: auto;
 }
 .logo-img {
-    width: 40px; /* ajuste conforme preferir */
+    width: 40px; 
     height: auto;
+    margin-right: 8px;
 }
 a {
     color: #ffffff; 
     text-decoration: underline; 
 }
+
+.top-nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #ffcc00; 
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+body {
+    padding-top: 100px; 
+}
+.logo-img:hover {
+            transform: scale(1.2);
+            transition: transform 0.2s;
+        }
+
