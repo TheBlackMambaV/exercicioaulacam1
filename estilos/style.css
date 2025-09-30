@@ -10,14 +10,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
+    padding-top: 120px; 
     margin: 0;
 }
 
 header {
-    background: rgba(34,34,34,0.95);
+    background: rgba(34,34,34,1);
     padding: 30px 0 20px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 8px rgba(0,0,0,2);
     position: fixed;
     top: 0;
     width: 100%;
@@ -71,19 +71,24 @@ h2 {
     display: block;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 footer {
     margin-top: auto;
-    min-height: 60px;
-    padding-bottom: 12px;
+    min-height: auto;
+    padding-bottom: auto;
     background: none;
 }
 
-footer p {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin: 0;
+    margin: 80px 0;
+    padding: 1rem 0;
 }
 
 .logo-img {
