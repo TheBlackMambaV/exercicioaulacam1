@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     padding-top: 120px; 
     margin: 0 0 10px 0;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 header {
@@ -117,5 +117,9 @@ ul {margin: 0 0 10px 0;
 li + li {
     margin-top: 20px;
 }
+img + h2 {
+    margin-top: 10px;
+}
+
     
 
