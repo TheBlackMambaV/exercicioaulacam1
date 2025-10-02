@@ -121,5 +121,22 @@ img + h2 {
     margin-top: 10px;
 }
 
-    
+.movie-img {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    margin: 24px auto 32px auto;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+.movie-img:hover {
+    transform: scale(1.15);
+    filter: grayscale(0%);
+    transition: transform 0.2s;
+    }
 
+    .movie-img + h2 {
+        margin-bottom: 10px;
+    }
