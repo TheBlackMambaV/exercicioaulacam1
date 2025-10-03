@@ -1,5 +1,8 @@
 html, body {
-    height: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -64,7 +67,7 @@ h2 {
 }
 
 .small-img {
-    width: 500px;
+    width: 650px;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.5);
@@ -90,6 +93,8 @@ footer {
     gap: 16px;
     margin: 80px 0;
     padding: 1rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .logo-img {
@@ -139,7 +144,5 @@ img + h2 {
 
     .movie-img + h2 {
         margin-bottom: 10px;
-    }
-    .movie-img + h2 {
         margin-top: 10px;
     }
