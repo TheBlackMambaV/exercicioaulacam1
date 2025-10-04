@@ -27,6 +27,7 @@ header {
     width: 100%;
     z-index: 1000;
     transform: translateZ(0);
+    overflow-y: auto;
 }
 
 h1 {
