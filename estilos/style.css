@@ -122,8 +122,9 @@ ul {margin: 0 0 10px 0;
 li + li {
     margin-top: 20px;
 }
-img + h2 {
-    margin-top: 10px;
+.small-img + h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .movie-img {
@@ -132,9 +133,9 @@ img + h2 {
     border-radius: 15px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.5);
     margin: 24px auto 32px auto;
-    display: block;
-    margin-bottom: 2px;
-    margin-top: 9px;}
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;}
 .movie-img:hover {
     transform: scale(1.15);
     filter: grayscale(0%);
@@ -145,9 +146,3 @@ img + h2 {
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    a .movie-img {
-        display: block;
-        }
-        a href {}
-            display: block;
-        }
