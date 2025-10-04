@@ -21,11 +21,12 @@ body {
 header {
     background: rgba(34,34,34,1);
     padding: 30px 0 20px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,2);
+    box-shadow: 0 0px 8px rgba(0,0,0,0.2);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    transform: translateZ(0);
 }
 
 h1 {
@@ -81,7 +82,6 @@ main {
 footer {
     margin-top: auto;
     min-height: auto;
-    padding-bottom: auto;
     background: none;
 }
 
@@ -145,4 +145,11 @@ li + li {
     .movie-img + h2 {
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    h3 {
+        font-size: 0.9rem;
+        font-weight: normal;
+        margin: 20px auto 24px auto;
+        max-width: 650px;
+        line-height: 1.5;
     }
