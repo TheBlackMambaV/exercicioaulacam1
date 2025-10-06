@@ -16,6 +16,7 @@ body {
     padding-top: 120px; 
     margin: 0 0 10px 0;
     letter-spacing: 2px;
+    overflow-x: scroll;
 }
 
 header {
@@ -27,7 +28,7 @@ header {
     width: 100%;
     z-index: 1000;
     transform: translateZ(0);
-    overflow-y: auto;
+    overflow-x: scroll;
 }
 
 h1 {
