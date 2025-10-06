@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body {
@@ -43,7 +44,6 @@ h1 {
     justify-content: center;
     gap: 30px;
     background: none;
-    overflow-x: auto;
 }
 
 .top-nav a {
