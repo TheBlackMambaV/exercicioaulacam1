@@ -16,7 +16,7 @@ body {
     padding-top: 120px; 
     margin: 0 0 10px 0;
     letter-spacing: 2px;
-    overflow-x: hidden;
+    
 }
 
 header {
@@ -29,6 +29,7 @@ header {
     z-index: 1000;
     transform: translateZ(0);
     overflow-x: auto;
+    overflow-y: auto;   
 }
 
 h1 {
